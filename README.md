@@ -1,5 +1,5 @@
 # Terragrunt Version Manager (tgenv)
-[Terragrunt](https://github.com/gruntwork-io/terragrunt) version manager inspired by [tfenv](https://github.com/kamatama41/tfenv)
+[Terragrunt](https://github.com/gruntwork-io/terragrunt) version manager inspired by [tfenv](https://github.com/tfutils/tfenv)
 
 
 ## Support
@@ -13,11 +13,11 @@ Currently tgenv supports the following OSes
 Install via [Homebrew](https://docs.brew.sh/Installation)
 
   ```console
-  $ brew tap sigsegv13/tgenv
+  $ brew tap rocketinsights/tgenv
   $ brew install tgenv
   ```
 
-Note: The Hombrew tap is maintained [here: sigsegv13/homebrew-tgenv](https://github.com/sigsegv13/homebrew-tgenv)
+Note: The Hombrew tap is maintained [here: rocketinsights/homebrew-tgenv](https://github.com/rocketinsights/homebrew-tgenv)
 
 
 ### Manual
@@ -25,7 +25,7 @@ Note: The Hombrew tap is maintained [here: sigsegv13/homebrew-tgenv](https://git
 1. Check out tgenv into any path (here is `${HOME}/.tgenv`)
 
   ```console
-  $ git clone https://github.com/sigsegv13/tgenv.git ~/.tgenv
+  $ git clone https://github.com/rocketinsights/tgenv.git ~/.tgenv
   ```
 
 2. Add `~/.tgenv/bin` to your `$PATH` any way you like
@@ -217,7 +217,7 @@ Uninstalling via Homebrew
 
 ```sh
 $ brew uninstall tgenv           # Uninstalls tgenv and associated Terragrunt release(s)
-$ brew untap sigsegv13/tgenv     # Removes the tap
+$ brew untap rocketinsights/tgenv     # Removes the tap
 ```
 
 ### Manual
@@ -228,6 +228,6 @@ $ rm -rf /some/path/to/tgenv
 
 
 ## LICENSE
-- [tgenv](https://github.com/sigsegv13/tgenv/blob/master/LICENSE) : My version of tgenv
-- [tgenv source](https://github.com/cunymatthieu/tgenv/blob/master/LICENSE) : Origin of my version of tgenv
-- [tfenv](https://github.com/kamatama41/tgenv/blob/master/LICENSE) : tgenv is based on tfenv's source code
+- [tgenv](https://github.com/rocketinsights/tgenv/blob/master/LICENSE) : Our version of tgenv
+- [tgenv source](https://github.com/sigsegv13/tgenv/blob/master/LICENSE) : Origin of our version of tgenv
+- [tfenv](https://github.com/tfutils/tfenv/blob/master/LICENSE) : tgenv is based on tfenv's source code
